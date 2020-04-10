@@ -24,7 +24,7 @@ module.exports = {
                 'ongs.uf'
             ]);
 
-        return response.json({incidents});
+        return response.json(incidents);
     },
 
     async create(request, response) {
